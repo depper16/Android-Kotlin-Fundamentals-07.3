@@ -116,6 +116,7 @@ class SleepTrackerFragment : Fragment() {
                 sleepTrackerViewModel.doneNavigating()
             }
         })
+
         val manager = GridLayoutManager(activity, 3)
         binding.sleepList.layoutManager = manager
 
